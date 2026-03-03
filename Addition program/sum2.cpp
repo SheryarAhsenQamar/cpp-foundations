@@ -8,6 +8,7 @@ int main(){
   cout << "Enter 2nd element:";
   int num2;
   cin >> num2;
+
    
   int sum= num1 + num2;
     
