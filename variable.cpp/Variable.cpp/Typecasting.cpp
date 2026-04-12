@@ -11,9 +11,9 @@ cout<<"The value of a is :"<<(float)a<<endl;
 cout<<"The value of a is :"<<float(a)<<endl;
 
 
-cout<<"The vlue of b is :"<<(int)b <<endl;
+cout<<"The value of b is :"<<(int)b <<endl;
 // ...............OR..............
-cout<<"The vlue of b is :"<<int(b)<<endl;
+cout<<"The value of b is :"<<int(b)<<endl;
  int c= int(b);
 
 cout <<"|The exression is :"<<a+b<<endl;
