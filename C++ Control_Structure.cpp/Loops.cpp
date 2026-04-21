@@ -101,14 +101,14 @@ while(condition;
 
 */
 
-int i=6;
+int i=1;
 
  do {
 
    cout<<i<<endl;
-     i**; 
+     i++; 
     }
-while(i<=10) ;
+while(i<=40) ;
 
 // so the differenceb/w while and do while is that if in the do while condition if false ( while (FALSE)
 // //BUT LOOP ONE TIME START AND then check conditiion but this not happen in while.
