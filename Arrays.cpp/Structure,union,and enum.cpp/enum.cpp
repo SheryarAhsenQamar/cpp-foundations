@@ -1,3 +1,9 @@
+// In a normal struct, each member gets its own memory.
+// But in a union, all members use one common memory block.
+// So at any time, a union can store only one value (the last assigned one).
+
+/*<---------------------------------**------------------------------------------------>*/
+
 
 #include <iostream>
 using namespace std;
