@@ -17,9 +17,10 @@ With inline:
 Calculation happens directly inside button circuit.
 
 Same result. Faster route.*/
-static int c =0;
-c = c+1;
-return a*b+c;
+/*We should avoid to use static variable in the inline function.*/
+//static int c =0;.......... //this execute only once.
+// = c+1; ...........// <<-----next time this function run, but the value of c will be retained
+return a*b;
 
 
 }
