@@ -16,7 +16,8 @@ void swap ( int a , int b ){// value of ....temp   a    b
                             //                5     7   5
 }
 /*-----Call By Reference Using C++ reference variables.------*/
-/*int &*/void swapReferenceVar ( int &a , int &b ){// value of ....temp   a    b
+/*int &*/
+void swapReferenceVar ( int &a , int &b ){// value of ....temp   a    b
     int temp= a; 
     a = b;                  //                 5     5   7               
    b = temp;               //                5     7   7
